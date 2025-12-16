@@ -18,12 +18,13 @@ A simple **RESTful API** built with **Flask** and **Flask-RESTful** to manage a 
 - nest_asyncio (if running in Jupyter notebooks)
 - requests (optional, for testing)
 
-Install dependencies:
-
-```bash
-pip install flask flask-restful nest_asyncio requests
 <img width="487" height="679" alt="Screenshot (155)" src="https://github.com/user-attachments/assets/d6f51f4a-14f6-4a61-b5df-a6c1e6cd8ea2" />
 <img width="455" height="674" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/dd603404-4bce-4a04-b3fa-055868c8bceb" />
 <img width="436" height="612" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/b9764280-170e-412f-afb0-18f4b41b7f2a" />
 
 For Delete MAthod Just add the ISBN of the book You want to delete at the end of URL/Books/ISBN
+
+Install dependencies:
+
+```bash
+pip install flask flask-restful nest_asyncio requests
